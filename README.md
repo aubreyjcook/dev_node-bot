@@ -11,10 +11,14 @@ Master/Drone Bot project within Node.js. Utilization of Express.js. Terminal bas
 - [ ] Todo 1
 - [ ] Todo 2
 
-## Psuedo-Code (Optional)
+## Building
 
 ```
-// Psuedo-Code
+npx tsc
+npm run build
+
+npm run start (to)
+
 ```
 
 ## Pseudo-Directory-Structure (Optional)
