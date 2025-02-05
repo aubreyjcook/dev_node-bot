@@ -29,4 +29,33 @@ This mainly serves as a log of the initial configuration steps taken for the pro
 
 ```
 // Config-Init Log
+
+in: npm init -y
+
+out: 
+Wrote to /Code\repos\ac\dev_node-bot\package.json:
+
+{
+  "name": "dev_node-bot",
+  "version": "1.0.0",
+  "description": "Node.js based botting with Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+in: npm install express
+
+out: 
+added 69 packages, and audited 70 packages in 2s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
 ```
