@@ -24,7 +24,24 @@ npm run start (to)
 ## Pseudo-Directory-Structure (Optional)
 
 ```
-// Pseudo-Structure
+bot-system/
+├── src/
+│   ├── master/
+│   │   ├── index.ts          # Entry point for the master bot system
+│   │   ├── masterService.ts  # Logic for handling communication with drones
+│   │   ├── commands.ts       # List of available commands and logic for them
+│   │   └── apiClient.ts      # HTTP client to send commands to drones
+│   ├── drone/
+│   │   ├── index.ts          # Entry point for the drone system
+│   │   ├── droneService.ts   # Logic for receiving commands and executing them
+│   │   ├── commandHandler.ts # Command handling logic for drones
+│   │   └── apiServer.ts      # Express server to receive commands from master
+│   └── common/
+│       └── types.ts          # Shared types/interfaces for communication
+├── dist/                     # Compiled JavaScript files
+├── package.json
+├── tsconfig.json
+└── .gitignore
 ```
 
 ## Config-Init Log (Semi-Optional)
